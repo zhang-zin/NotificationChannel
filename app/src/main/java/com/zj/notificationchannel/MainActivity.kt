@@ -10,5 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         PushNotificationHelper.notifyMessage(this, 1, "mdd", "新消息")
+
+        //PushNotificationHelper.notifyMention(this, 2, "MadChan", "这是一条@提醒消息")
     }
 }
